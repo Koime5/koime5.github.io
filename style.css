@@ -19,7 +19,13 @@ h1 {
   position: relative;
   font-size: 50px;
   text-align: center;  
-  margin-top: 50px;                                 
+  margin-top: 50px;  
+  cursor: pointer;                               
+}
+
+.container a {
+    -webkit-tap-highlight-color: transparent; /* Removes the blue highlight */
+    outline: none; /* Removes default focus outline */
 }
 
 .container {
