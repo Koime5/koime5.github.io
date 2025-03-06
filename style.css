@@ -9,7 +9,8 @@
 body {
   position: relative;
   height: 100vh;
-  overflow: hidden;
+  background: rgb(105,99,169);
+  background: linear-gradient(87deg, rgba(105,99,169,1) 0%, rgba(176,112,179,1) 100%);
 }
 
 h1 {
@@ -90,8 +91,6 @@ footer a {
   top: 0;
   left: 0;
   z-index: 0;
-  background: rgb(105,99,169);
-  background: linear-gradient(87deg, rgba(105,99,169,1) 0%, rgba(176,112,179,1) 100%);
 }
 
 .moon-container {
